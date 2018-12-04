@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754ECBAF1FBC1FCB0035B22E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 754ECBAE1FBC1FCB0035B22E /* AppDelegate.m */; };
+		754ECBB21FBC1FCB0035B22E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754ECBB11FBC1FCB0035B22E /* ViewController.m */; };
+		754ECBB51FBC1FCB0035B22E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754ECBB31FBC1FCB0035B22E /* Main.storyboard */; };
+		754ECBB71FBC1FCB0035B22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754ECBB61FBC1FCB0035B22E /* Assets.xcassets */; };
+		754ECBBD1FBC1FCB0035B22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 754ECBBC1FBC1FCB0035B22E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		754ECBAA1FBC1FCB0035B22E /* 利用GCD制作倒计时器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "利用GCD制作倒计时器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754ECBAD1FBC1FCB0035B22E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		754ECBAE1FBC1FCB0035B22E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		754ECBB01FBC1FCB0035B22E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		754ECBB11FBC1FCB0035B22E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		754ECBB41FBC1FCB0035B22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		754ECBB61FBC1FCB0035B22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		754ECBBB1FBC1FCB0035B22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754ECBBC1FBC1FCB0035B22E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		754ECBA71FBC1FCB0035B22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754ECBA11FBC1FCB0035B22E = {
+			isa = PBXGroup;
+			children = (
+				754ECBAC1FBC1FCB0035B22E /* 利用GCD制作倒计时器 */,
+				754ECBAB1FBC1FCB0035B22E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		754ECBAB1FBC1FCB0035B22E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				754ECBAA1FBC1FCB0035B22E /* 利用GCD制作倒计时器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		754ECBAC1FBC1FCB0035B22E /* 利用GCD制作倒计时器 */ = {
+			isa = PBXGroup;
+			children = (
+				754ECBAD1FBC1FCB0035B22E /* AppDelegate.h */,
+				754ECBAE1FBC1FCB0035B22E /* AppDelegate.m */,
+				754ECBB01FBC1FCB0035B22E /* ViewController.h */,
+				754ECBB11FBC1FCB0035B22E /* ViewController.m */,
+				754ECBB31FBC1FCB0035B22E /* Main.storyboard */,
+				754ECBB61FBC1FCB0035B22E /* Assets.xcassets */,
+				754ECBBB1FBC1FCB0035B22E /* Info.plist */,
+				754ECBBC1FBC1FCB0035B22E /* main.m */,
+			);
+			path = "利用GCD制作倒计时器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		754ECBA91FBC1FCB0035B22E /* 利用GCD制作倒计时器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754ECBC01FBC1FCB0035B22E /* Build configuration list for PBXNativeTarget "利用GCD制作倒计时器" */;
+			buildPhases = (
+				754ECBA61FBC1FCB0035B22E /* Sources */,
+				754ECBA71FBC1FCB0035B22E /* Frameworks */,
+				754ECBA81FBC1FCB0035B22E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "利用GCD制作倒计时器";
+			productName = "利用GCD制作倒计时器";
+			productReference = 754ECBAA1FBC1FCB0035B22E /* 利用GCD制作倒计时器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		754ECBA21FBC1FCB0035B22E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "赵鹏";
+				TargetAttributes = {
+					754ECBA91FBC1FCB0035B22E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 754ECBA51FBC1FCB0035B22E /* Build configuration list for PBXProject "利用GCD制作倒计时器" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 754ECBA11FBC1FCB0035B22E;
+			productRefGroup = 754ECBAB1FBC1FCB0035B22E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				754ECBA91FBC1FCB0035B22E /* 利用GCD制作倒计时器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		754ECBA81FBC1FCB0035B22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754ECBB71FBC1FCB0035B22E /* Assets.xcassets in Resources */,
+				754ECBB51FBC1FCB0035B22E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		754ECBA61FBC1FCB0035B22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754ECBB21FBC1FCB0035B22E /* ViewController.m in Sources */,
+				754ECBBD1FBC1FCB0035B22E /* main.m in Sources */,
+				754ECBAF1FBC1FCB0035B22E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		754ECBB31FBC1FCB0035B22E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				754ECBB41FBC1FCB0035B22E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		754ECBBE1FBC1FCB0035B22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		754ECBBF1FBC1FCB0035B22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		754ECBC11FBC1FCB0035B22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "利用GCD制作倒计时器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.--GCD------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		754ECBC21FBC1FCB0035B22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "利用GCD制作倒计时器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.--GCD------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		754ECBA51FBC1FCB0035B22E /* Build configuration list for PBXProject "利用GCD制作倒计时器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754ECBBE1FBC1FCB0035B22E /* Debug */,
+				754ECBBF1FBC1FCB0035B22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754ECBC01FBC1FCB0035B22E /* Build configuration list for PBXNativeTarget "利用GCD制作倒计时器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754ECBC11FBC1FCB0035B22E /* Debug */,
+				754ECBC21FBC1FCB0035B22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 754ECBA21FBC1FCB0035B22E /* Project object */;
+}
