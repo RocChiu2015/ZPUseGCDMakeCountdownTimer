@@ -1,5 +1,5 @@
 # ZPUseGCDMakeCountdownTimer
-本Demo主要介绍如何利用GCD制作倒计时器。
+本Demo主要介绍如何利用GCD制作倒计时器(original)。
 
 可以参考本人写的印象笔记，地址为：https://app.yinxiang.com/shard/s10/nl/18104452/75bdca10-29b3-4b46-bb84-d5b8be036b10/
 
